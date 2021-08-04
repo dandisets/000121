@@ -2,10 +2,37 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000121
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.5.1/context.json
+about: []
+access: []
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: behavioral approach
+    schemaKey: ApproachType
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  - name: signal filtering technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 21747989038
+  numberOfFiles: 7
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9544
+    name: Rhesus monkey
+    schemaKey: SpeciesType
+  variableMeasured:
+  - Units
+  - LFP
+  - Position
 citation: Sharda, Saksham (2021) Structure and variability of delay activity in premotor
   cortex (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000121/draft
 contributor:
@@ -19,11 +46,21 @@ contributor:
 description: 'Even-Chen N, Sheffer B, Vyas S, Ryu SI, Shenoy KV (2019) Structure and
   variability of delay activity in premotor cortex. PLoS Comput Biol 15(2): e1006808.
   https://doi.org/10.1371/journal.pcbi.1006808'
+ethicsApproval: []
 id: DANDI:000121/draft
 identifier: DANDI:000121
+keywords: []
+license:
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000121/versions/draft/assets/
 name: Structure and variability of delay activity in premotor cortex
+protocol: []
+relatedResource: []
+repository: https://dandiarchive.org/
+schemaKey: Dandiset
 schemaVersion: 0.5.1
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000121/draft
 version: draft
+wasGeneratedBy: []
