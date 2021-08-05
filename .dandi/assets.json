@@ -171,7 +171,7 @@
 ]
 },
 "modified":
-"2021-08-04T07:04:32.930106+00:00",
+"2021-08-05T18:54:45.636363+00:00",
 "path":
 "sub-Reggie/sub-Reggie_ses-20170117T104643_behavior+ecephys.nwb",
 "size":
@@ -349,7 +349,7 @@
 ]
 },
 "modified":
-"2021-08-04T07:04:38.990924+00:00",
+"2021-08-05T18:54:45.670517+00:00",
 "path":
 "sub-Reggie/sub-Reggie_ses-20170125T100800_behavior+ecephys.nwb",
 "size":
@@ -527,7 +527,7 @@
 ]
 },
 "modified":
-"2021-08-04T07:04:44.916699+00:00",
+"2021-08-05T18:54:45.700342+00:00",
 "path":
 "sub-Reggie/sub-Reggie_ses-20170124T094957_behavior+ecephys.nwb",
 "size":
@@ -705,7 +705,7 @@
 ]
 },
 "modified":
-"2021-08-04T07:04:23.465049+00:00",
+"2021-08-05T18:54:45.731020+00:00",
 "path":
 "sub-Reggie/sub-Reggie_ses-20170119T123128_behavior+ecephys.nwb",
 "size":
@@ -883,7 +883,7 @@
 ]
 },
 "modified":
-"2021-08-04T07:04:33.063124+00:00",
+"2021-08-05T18:54:45.761114+00:00",
 "path":
 "sub-Reggie/sub-Reggie_ses-20170118T094022_behavior+ecephys.nwb",
 "size":
@@ -1061,7 +1061,7 @@
 ]
 },
 "modified":
-"2021-08-04T07:04:44.698492+00:00",
+"2021-08-05T18:54:45.792308+00:00",
 "path":
 "sub-Reggie/sub-Reggie_ses-20170115T125333_behavior+ecephys.nwb",
 "size":
@@ -1239,7 +1239,7 @@
 ]
 },
 "modified":
-"2021-08-04T07:04:39.563707+00:00",
+"2021-08-05T18:54:45.823580+00:00",
 "path":
 "sub-Reggie/sub-Reggie_ses-20170116T102856_behavior+ecephys.nwb",
 "size":
@@ -1417,7 +1417,7 @@
 ]
 },
 "modified":
-"2021-08-04T11:43:20.583861+00:00",
+"2021-08-05T18:54:45.857683+00:00",
 "path":
 "sub-JenkinsC/sub-JenkinsC_ses-20151015T151424_behavior+ecephys.nwb",
 "size":
@@ -1595,7 +1595,7 @@
 ]
 },
 "modified":
-"2021-08-04T11:45:32.257717+00:00",
+"2021-08-05T18:54:45.920743+00:00",
 "path":
 "sub-JenkinsC/sub-JenkinsC_ses-20151002T143706_behavior+ecephys.nwb",
 "size":
@@ -1773,7 +1773,7 @@
 ]
 },
 "modified":
-"2021-08-04T11:45:11.880232+00:00",
+"2021-08-05T18:54:45.985509+00:00",
 "path":
 "sub-JenkinsC/sub-JenkinsC_ses-20151001T150307_behavior+ecephys.nwb",
 "size":
@@ -1951,7 +1951,7 @@
 ]
 },
 "modified":
-"2021-08-04T11:46:15.113891+00:00",
+"2021-08-05T18:54:46.050985+00:00",
 "path":
 "sub-JenkinsC/sub-JenkinsC_ses-20160127T110630_behavior+ecephys.nwb",
 "size":
@@ -2002,7 +2002,9 @@
 "digest":
 {
 "dandi:dandi-etag":
-"7e376ee184c74a82194356cc834ff797-79"
+"7e376ee184c74a82194356cc834ff797-79",
+"dandi:sha2-256":
+"4c70521540916ed8bc8a2fdb1b0a9007c3f33b2e35a900f21e9b877709b9edae"
 },
 "encodingFormat":
 "application/x-nwb",
@@ -2127,7 +2129,7 @@
 ]
 },
 "modified":
-"2021-08-04T11:46:40.032212+00:00",
+"2021-08-05T18:54:46.086120+00:00",
 "path":
 "sub-JenkinsC/sub-JenkinsC_ses-20160128T160749_behavior+ecephys.nwb",
 "size":
@@ -2305,7 +2307,7 @@
 ]
 },
 "modified":
-"2021-08-05T05:58:59.773744+00:00",
+"2021-08-05T18:54:46.118531+00:00",
 "path":
 "sub-JenkinsC/sub-JenkinsC_ses-20150924T154125_behavior+ecephys+image.nwb",
 "size":
@@ -2483,7 +2485,7 @@
 ]
 },
 "modified":
-"2021-08-05T06:10:50.175982+00:00",
+"2021-08-05T18:54:46.151235+00:00",
 "path":
 "sub-JenkinsC/sub-JenkinsC_ses-20151009T150007_behavior+ecephys+image.nwb",
 "size":
@@ -2661,7 +2663,7 @@
 ]
 },
 "modified":
-"2021-08-05T06:11:14.115333+00:00",
+"2021-08-05T18:54:46.186806+00:00",
 "path":
 "sub-JenkinsC/sub-JenkinsC_ses-20150925T151743_behavior+ecephys+image.nwb",
 "size":
