@@ -2,7 +2,10 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000121
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.5.1/context.json
-about: []
+about:
+- identifier: http://purl.obolibrary.org/obo/UBERON_0016634
+  name: premotor cortex
+  schemaKey: Anatomy
 access: []
 assetsSummary:
   approach:
@@ -33,8 +36,9 @@ assetsSummary:
   - Units
   - LFP
   - Position
-citation: Sharda, Saksham (2021) Structure and variability of delay activity in premotor
-  cortex (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000121/draft
+citation: Sharda, Saksham; Even-Chen, Nir; Sheffer, Blue; Vyas, Saurabh; Ryu, Stephen;
+  Shenoy, Krishna (2021) Structure and variability of delay activity in premotor cortex
+  (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000121/draft
 contributor:
 - affiliation: []
   email: saksham20.sharda@gmail.com
@@ -43,9 +47,81 @@ contributor:
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
-description: 'Even-Chen N, Sheffer B, Vyas S, Ryu SI, Shenoy KV (2019) Structure and
-  variability of delay activity in premotor cortex. PLoS Comput Biol 15(2): e1006808.
-  https://doi.org/10.1371/journal.pcbi.1006808'
+- affiliation:
+  - identifier: https://ror.org/00f54p054
+    name: Department of Electrical Engineering, Stanford University, Stanford, CA,
+      United States of America
+    schemaKey: Affiliation
+  email: ' nirec@stanford.edu'
+  identifier: 0000-0003-2186-5567
+  includeInCitation: true
+  name: Even-Chen, Nir
+  roleName:
+  - dcite:Author
+  - dcite:Conceptualization
+  - dcite:DataCurator
+  - dcite:FormalAnalysis
+  schemaKey: Person
+  url: http://orcid.org/0000-0003-2186-5567
+- affiliation:
+  - identifier: https://ror.org/03mtd9a03
+    name: Department of Computer Science, Stanford University, Stanford, CA, United
+      States of America
+    schemaKey: Affiliation
+  email: bsheffer@stanford.edu
+  identifier: 0000-0003-2753-7150
+  includeInCitation: true
+  name: Sheffer, Blue
+  roleName:
+  - dcite:Author
+  - dcite:Conceptualization
+  - dcite:DataCurator
+  - dcite:FormalAnalysis
+  schemaKey: Person
+  url: http://orcid.org/0000-0003-2753-7150
+- affiliation:
+  - identifier: https://ror.org/03mtd9a03
+    name: Department of Bioengineering, Stanford University, Stanford, CA, United
+      States of America
+    schemaKey: Affiliation
+  email: smvyas@stanford.edu
+  includeInCitation: true
+  name: Vyas, Saurabh
+  roleName:
+  - dcite:DataCurator
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/03mtd9a03
+    name: Department of Neurosurgery, Palo Alto Medical Foundation, Palo Alto, CA,
+      United States of America
+    schemaKey: Affiliation
+  identifier: 0000-0002-4607-7447
+  includeInCitation: true
+  name: Ryu, Stephen
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+  url: http://orcid.org/0000-0002-4607-7447
+- affiliation:
+  - identifier: https://ror.org/03mtd9a03
+    name: Stanford University
+    schemaKey: Affiliation
+  email: shenoy@stanford.edu
+  identifier: 0000-0003-1534-9240
+  includeInCitation: true
+  name: Shenoy, Krishna
+  roleName:
+  - dcite:Author
+  - dcite:Conceptualization
+  - dcite:DataCurator
+  schemaKey: Person
+  url: https://orcid.org/0000-0003-1534-9240
+description: Extracellular physiology data of Monkeys implanted with 96 channel Blackrock
+  Utah arrays in the Motor cortex. Each file contains a sessions worth of data for
+  one monkey (total 2) performing 1 of the four cursor movement task designs. The
+  data contains hand, eye and cursor position data, LFP, sorted spikes and other task
+  related trialized data.
 ethicsApproval: []
 id: DANDI:000121/draft
 identifier: DANDI:000121
@@ -56,7 +132,12 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000121/versions/draft/assets/
 name: Structure and variability of delay activity in premotor cortex
 protocol: []
-relatedResource: []
+relatedResource:
+- identifier: 10.1371/journal.pcbi.1006808
+  name: Structure and variability of delay activity in premotor cortex
+  relation: dcite:IsDescribedBy
+  repository: PLOS Computational Biology
+  url: https://doi.org/10.1371/journal.pcbi.1006808
 repository: https://dandiarchive.org/
 schemaKey: Dandiset
 schemaVersion: 0.5.1
