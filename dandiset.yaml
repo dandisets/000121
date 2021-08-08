@@ -5,7 +5,6 @@
 about:
 - identifier: http://purl.obolibrary.org/obo/UBERON_0016634
   name: premotor cortex
-  schemaKey: Anatomy
 access: []
 assetsSummary:
   approach:
@@ -36,15 +35,16 @@ assetsSummary:
   - Units
   - LFP
   - Position
-citation: Sharda, Saksham; Even-Chen, Nir; Sheffer, Blue; Vyas, Saurabh; Ryu, Stephen;
-  Shenoy, Krishna (2021) Structure and variability of delay activity in premotor cortex
-  (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000121/draft
+citation: Even-Chen, Nir; Sheffer, Blue; Vyas, Saurabh; Ryu, Stephen; Shenoy, Krishna
+  (2021) Structure and variability of delay activity in premotor cortex (Version draft)
+  [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000121/draft
 contributor:
 - affiliation: []
   email: saksham20.sharda@gmail.com
-  includeInCitation: true
+  includeInCitation: false
   name: Sharda, Saksham
   roleName:
+  - dcite:Maintainer
   - dcite:ContactPerson
   schemaKey: Person
 - affiliation:
@@ -61,6 +61,7 @@ contributor:
   - dcite:Conceptualization
   - dcite:DataCurator
   - dcite:FormalAnalysis
+  - dcite:ContactPerson
   schemaKey: Person
   url: http://orcid.org/0000-0003-2186-5567
 - affiliation:
