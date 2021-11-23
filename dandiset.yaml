@@ -48,8 +48,7 @@ contributor:
   includeInCitation: false
   name: Sharda, Saksham
   roleName:
-  - dcite:Maintainer
-  - dcite:ContactPerson
+  - dcite:Software
   schemaKey: Person
 - affiliation:
   - identifier: https://ror.org/00f54p054
@@ -120,8 +119,18 @@ contributor:
   - dcite:Author
   - dcite:Conceptualization
   - dcite:DataCurator
+  - dcite:ContactPerson
   schemaKey: Person
   url: https://orcid.org/0000-0003-1534-9240
+- awardNumber: https://www.simonsfoundation.org/collaborations/global-brain/data-sharing-initiatives/
+  contactPoint: []
+  includeInCitation: false
+  name: Simons Foundation
+  roleName:
+  - dcite:Funder
+  - dcite:Sponsor
+  schemaKey: Organization
+  url: https://www.simonsfoundation.org/
 dateCreated: '2021-08-04T06:06:44.632096+00:00'
 description: Extracellular physiology data of monkeys implanted with 96 channel Blackrock
   Utah arrays in the Motor cortex and Premotor cortex. Each file contains a sessions
