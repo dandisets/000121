@@ -11,34 +11,9 @@ about:
   schemaKey: Anatomy
 access: []
 assetsSummary:
-  approach:
-  - name: behavioral approach
-    schemaKey: ApproachType
-  - name: electrophysiological approach
-    schemaKey: ApproachType
-  dataStandard:
-  - identifier: RRID:SCR_015242
-    name: Neurodata Without Borders (NWB)
-    schemaKey: StandardsType
-  measurementTechnique:
-  - name: spike sorting technique
-    schemaKey: MeasurementTechniqueType
-  - name: behavioral technique
-    schemaKey: MeasurementTechniqueType
-  - name: signal filtering technique
-    schemaKey: MeasurementTechniqueType
-  numberOfBytes: 187534957634
-  numberOfFiles: 15
-  numberOfSubjects: 2
+  numberOfBytes: 0
+  numberOfFiles: 0
   schemaKey: AssetsSummary
-  species:
-  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9544
-    name: Rhesus monkey
-    schemaKey: SpeciesType
-  variableMeasured:
-  - Units
-  - LFP
-  - Position
 citation: Even-Chen, Nir; Sheffer, Blue; Vyas, Saurabh; Ryu, Stephen; Shenoy, Krishna
   (2022) Structure and variability of delay activity in premotor cortex (Version draft)
   [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000121/draft
@@ -154,7 +129,7 @@ relatedResource:
   repository: PLOS Computational Biology
   schemaKey: Resource
   url: https://doi.org/10.1371/journal.pcbi.1006808
-repository: https://dandiarchive.org/
+repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.0
 studyTarget: []
