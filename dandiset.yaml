@@ -9,13 +9,15 @@ about:
 - identifier: http://purl.obolibrary.org/obo/UBERON_0001384
   name: Motor Cortex
   schemaKey: Anatomy
-access: []
+access:
+- schemaKey: AccessRequirements
+  status: dandi:OpenAccess
 assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
 citation: Even-Chen, Nir; Sheffer, Blue; Vyas, Saurabh; Ryu, Stephen; Shenoy, Krishna
-  (2022) Structure and variability of delay activity in premotor cortex (Version draft)
+  (2024) Structure and variability of delay activity in premotor cortex (Version draft)
   [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000121/draft
 contributor:
 - affiliation: []
