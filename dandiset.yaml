@@ -9,9 +9,7 @@ about:
 - identifier: http://purl.obolibrary.org/obo/UBERON_0001384
   name: Motor Cortex
   schemaKey: Anatomy
-access:
-- schemaKey: AccessRequirements
-  status: dandi:OpenAccess
+access: []
 assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
@@ -129,6 +127,7 @@ relatedResource:
   name: Structure and variability of delay activity in premotor cortex
   relation: dcite:IsDescribedBy
   repository: PLOS Computational Biology
+  resourceType: dcite:JournalArticle
   schemaKey: Resource
   url: https://doi.org/10.1371/journal.pcbi.1006808
 repository: https://dandiarchive.org
